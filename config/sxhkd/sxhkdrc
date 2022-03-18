@@ -50,6 +50,11 @@ XF86Audio{Raise,Lower}Volume
 XF86AudioMute
         pulsemixer --toggle-mute
 
+# Screenshot
+
+ctrl + alt + s
+  import ~/screenshot_"$(date +%h_%m-%I:%M)".png
+
 #
 # state/flags
 #
