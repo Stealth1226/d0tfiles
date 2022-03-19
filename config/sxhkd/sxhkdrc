@@ -56,15 +56,26 @@ ctrl + alt + s
   import ~/screenshot_"$(date +%h_%m-%I:%M)".png
 
 
+# Tile resizing
 super + d : {a,s,w,d}
   STEP=20; SELECTION={1,2,3,4}; \
   bspc node -z $(echo "left -$STEP 0,bottom 0 $STEP,top 0 -$STEP,right $STEP 0" | cut -d',' -f$SELECTION) || \
   bspc node -z $(echo "right -$STEP 0,top 0 $STEP,bottom 0 -$STEP,left $STEP 0" | cut -d',' -f$SELECTION)
 
 
+# Window switcher
 alt + Tab
    rofi -show
 
+# Media controls
+ctrl + F12
+ dbus-send --type=method_call --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next
+
+ctrl + F10
+ dbus-send --type=method_call --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous
+
+ctrl + F11
+ dbus-send --type=method_call --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause
 
 #
 # state/flags
