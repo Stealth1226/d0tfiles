@@ -45,7 +45,7 @@ super + g
 #Volume Control
 
 XF86Audio{Raise,Lower}Volume
-        pulsemixer --change-volume {+,-}10
+        pulsemixer --change-volume {+,-}5
 
 XF86AudioMute
         pulsemixer --toggle-mute
