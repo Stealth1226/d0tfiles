@@ -54,7 +54,7 @@ polybar
 pulseaudio-bluetooth
 pulseaudio-control
 pulsemixer
-pywal-git
+qbittorrent
 reflector
 repo
 rofi
