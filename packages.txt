@@ -2,6 +2,7 @@ alacritty
 alsa-utils
 android-apktool
 android-sdk-platform-tools
+aria2
 autoconf
 automake
 base
@@ -13,9 +14,11 @@ bluez-utils
 brave-bin
 bspwm
 calc
+cbonsai-git
 cmake
 cups
 dosfstools
+espeak
 fakeroot
 feh
 flex
@@ -34,12 +37,14 @@ lightdm-webkit-theme-aether
 linux
 linux-firmware
 linux-headers
+linux-zen
 m4
 make
 mirage
 mpv
 mtools
 nano
+nautilus
 neofetch
 network-manager-applet
 networkmanager
@@ -54,7 +59,9 @@ polybar
 pulseaudio-bluetooth
 pulseaudio-control
 pulsemixer
+python-pip
 qbittorrent
+rclone
 reflector
 repo
 rofi
