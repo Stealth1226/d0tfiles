@@ -34,7 +34,6 @@ libtool
 lightdm
 lightdm-gtk-greeter
 lightdm-webkit-theme-aether
-linux
 linux-firmware
 linux-headers
 linux-zen
