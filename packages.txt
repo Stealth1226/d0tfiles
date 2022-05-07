@@ -59,6 +59,7 @@ pulseaudio-bluetooth
 pulseaudio-control
 pulsemixer
 python-pip
+pywal-git
 qbittorrent
 rclone
 reflector

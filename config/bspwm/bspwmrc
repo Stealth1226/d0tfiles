@@ -20,7 +20,8 @@ bspc rule -a Zathura state=tiled
 
 #AutoStart
 picom --experimental-backends &
-feh --bg-fill ~/Pictures/Wallpapers/studio.png
+#feh --bg-fill ~/Pictures/Wallpapers/studio.png
+feh --bg-fill ~/Pictures/Wallpapers/NewWall.jpg
 
 #AutoFocus
 bspc config focus_follows_pointer true
