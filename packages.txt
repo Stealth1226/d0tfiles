@@ -71,6 +71,7 @@ sudo
 sxhkd
 telegram-desktop-bin
 texinfo
+tlp
 unzip
 visual-studio-code-bin
 wget
