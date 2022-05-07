@@ -28,4 +28,5 @@ bspc config focus_follows_pointer true
 xsetroot -cursor_name left_ptr &
 
 # Theming
+bspc config focused_border_color \#0A0918
 bash ~/.config/polybar/launch.sh --docky &
