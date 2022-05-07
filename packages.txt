@@ -14,7 +14,6 @@ bluez-utils
 brave-bin
 bspwm
 calc
-cbonsai-git
 cmake
 cups
 dosfstools
@@ -61,6 +60,7 @@ pulsemixer
 python-pip
 pywal-git
 qbittorrent
+ranger
 rclone
 reflector
 repo
