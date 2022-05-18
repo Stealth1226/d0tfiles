@@ -73,6 +73,7 @@ sxhkd
 telegram-desktop-bin
 texinfo
 tlp
+tty-clock-git
 unzip
 visual-studio-code-bin
 wget

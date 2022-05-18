@@ -886,8 +886,8 @@ colors:
     cursor:     '#8fd7d5'
   normal:
     black:      '#0A0918'
-    red:        '#12585C'
-    green:      '#BA424D'
+    red:        '#BA424D'
+    green:      '#12585C'
     yellow:     '#26B174'
     blue:       '#F2BA58'
     magenta:    '#145E9E'
@@ -895,8 +895,8 @@ colors:
     white:      '#8fd7d5'
   bright:
     black:      '#649695'
-    red:        '#12585C'
-    green:      '#BA424D'
+    red:      	'#BA424D'
+    green:      '#12585C'
     yellow:     '#26B174'
     blue:       '#F2BA58'
     magenta:    '#145E9E'
